@@ -139,7 +139,7 @@ iframe {
   font-weight: 400;
   font-size: 24px;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .header .profile-content .social a {
   background: #b0b7bf;
@@ -156,6 +156,7 @@ iframe {
   background-clip: padding-box;
   color: #fff;
   text-align: center;
+  margin-top: 10px;
 }
 .header .profile-content .social a:hover {
   background: #778492;
