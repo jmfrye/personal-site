@@ -35,18 +35,32 @@
 <body>
     <!-- ******HEADER****** --> 
     <header class="header">
-        <div class="container">                       
-            <img class="profile-image img-responsive pull-left" src="assets/images/jmfrye.jpg" alt="Justin M. Frye" />
-            <div class="profile-content pull-left">
-                <h1 class="name">Justin M. Frye</h1>
-                <h2 class="desc">Electrical &amp; Computer Engineering Student</h2>   
-                <ul class="social list-inline">
-                    <li><a href="https://www.linkedin.com/in/justinfrye"><i class="fa fa-linkedin"></i></a></li>                 
-                    <li><a href="https://plus.google.com/+JustinFrye0"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="https://github.com/jmfrye"><i class="fa fa-github-alt"></i></a></li>                                  
-                </ul> 
-            </div><!--//profile-->
-            <a class="btn btn-cta-primary pull-right" href="mailto:jmfrye@cmu.edu" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a>              
+        <div class="container">  
+            <div class="primary col-md-8 col-sm-12 col-xs-12">                      
+                <img class="profile-image img-responsive pull-left" src="assets/images/jmfrye.jpg" alt="Justin M. Frye" />
+                <div class="profile-content">
+                    <h1 class="name">Justin M. Frye</h1>
+                    <h2 class="desc">Electrical &amp; Computer Engineering Student</h2>   
+                    <ul class="social list-inline">
+                        <li><a href="https://www.linkedin.com/in/justinfrye"><i class="fa fa-linkedin"></i></a></li>                 
+                        <li><a href="https://plus.google.com/+JustinFrye0"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="https://github.com/jmfrye"><i class="fa fa-github-alt"></i></a></li>                                  
+                    </ul>
+                </div><!--//profile-->
+            </div>
+
+            <div class="info aside section secondary col-md-4 col-sm-12 col-xs-12">
+                <aside class="section-inner">
+                    <h2 class="heading sr-only">Basic Information</h2>
+                    <div class="content">
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Pittsburgh, PA</li>
+                            <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:jmfrye@cmu.edu">jmfrye@cmu.edu</a></li>
+                            <li><i class="fa fa-link"></i><span class="sr-only">LinkedIn:</span><a href="https://www.linkedin.com/in/justinfrye">linkedin.com/in/justinfrye</a></li>
+                        </ul>
+                    </div><!--//content-->  
+                </aside><!--//section-inner-->                 
+            </div><!--//aside-->             
         </div><!--//container-->
     </header><!--//header-->
     
@@ -82,7 +96,7 @@
                                 </div><!--//desc-->                          
                             </div><!--//item-->
                             
-                            <div class="item row" id="streetpong">
+                            <div class="item row" id="street-pong">
                                 <a class="col-md-4 col-sm-4 col-xs-12" href="https://www.youtube.com/watch?v=SbqVh33VOEU&feature=youtu.be" target="_blank">
                                 <img class="img-responsive project-image" src="assets/images/projects/pong.jpg" alt="Street Pong" title="https://kdadams1.files.wordpress.com/2010/05/tsp-pong.jpg"/>
                                 </a>
@@ -104,7 +118,7 @@
                                 </div><!--//desc-->                          
                             </div><!--//item-->   
 
-                            <div class="item row" id="exceptiontagging">
+                            <div class="item row" id="exception-tagging">
                                 <a class="col-md-4 col-sm-4 col-xs-12" href="http://predictivetechnologies.com/" target="_blank">
                                 <img class="img-responsive project-image" src="assets/images/projects/tag.png" alt="Exception Tagging" title="http://simpleicon.com/wp-content/uploads/tag-2.png"/>
                                 </a>
@@ -124,9 +138,9 @@
                         <h2 class="heading">Research</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title"><a href="#">Smart Residential Energy Scheduling: A Customer Preference-based Approach</a></h3>
-                                <p class="summary">In  this  paper,  we  design  and  evaluate  the  feasibility  of  a  system  which  minimizes  residential  electricity  costof  individual  homes  by  shifting  demand  over  a  daily  forecastprice  cycle.</p> 
-                                <p class="summary">M.H. Amini, Justin Frye, Marija D. Ilic, O. Karabasoglu, "Smart Residential Energy Scheduling: A Customer Preference-based Approach," North American Power Symposium (NAPS) 2015.</p>
+                                <h3 class="title"><a href="assets/docs/smartResidentialEnergyScheduling.pdf">Smart Residential Energy Scheduling Utilizing Two Stage Mixed Integer Linear Programming</a></h3>
+                                <p class="summary">In  this  paper,  we  design  and  evaluate  the  feasibility  of  a  system  which  minimizes  residential  electricity  cost of  individual  homes  by  shifting  demand  over  a  daily  forecast price  cycle.</p> 
+                                <p class="summary">M.H. Amini, Justin Frye, Marija D. Ilic, O. Karabasoglu, "Smart Residential Energy Scheduling Utilizing Two Stage Mixed Integer Linear Programming," North American Power Symposium (NAPS) 2015.</p>
                             </div><!--//item-->
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
@@ -147,42 +161,11 @@
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
-                
-                <section class="experience section">
-                    <div class="section-inner">
-                        <h2 class="heading">Work Experience</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title"><a href="http://predictivetechnologies.com">Applied Predictive Technologies (APT)</a>, Arlington, VA - <span class="place">Software Engineering Intern</span>&nbsp;<span class="year">(Summer 2015)</span></h3>
-                                <p>I worked on the <a href="#exceptiontagging">exception tagging</a> and the client services dashboard features on the architecture team.</p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><a href="https://azure.microsoft.com/en-us/">Microsoft Corporation </a>, Redmond, WA - <span class="place">Software Development Engineer Intern</span>&nbsp;<span class="year">(Summer 2014)</span></h3>
-                                <p>I created a disk performance monitor on the Azure Storage team.</p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><a href="http://www.ni.com/">National Instruments</a>, Austin, TX - <span class="place">Software Engineering Intern</span>&nbsp;<span class="year">(2012 - 2013)</span></h3>
-                                <p>I made a signal path identifier to ascertain the hardware configuration of RF signal analyzers.</p>
-                            </div><!--//item-->
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
             </div><!--//primary-->
-            <div class="secondary col-md-4 col-sm-12 col-xs-12">
-                 <aside class="info aside section">
-                    <div class="section-inner">
-                        <h2 class="heading sr-only">Basic Information</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Pittsburgh, PA</li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:jmfrye@cmu.edu">jmfrye@cmu.edu</a></li>
-                                <li><i class="fa fa-link"></i><span class="sr-only">LinkedIn:</span><a href="https://www.linkedin.com/in/justinfrye">https://www.linkedin.com/in/justinfrye</a></li>
-                            </ul>
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//aside-->
 
-                <aside class="education aside section">
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+            
+                <aside class="education section">
                     <div class="section-inner">
                         <h2 class="heading">Education</h2>
                         <div class="content">
@@ -198,7 +181,27 @@
                     </div><!--//section-inner-->
                 </aside><!--//section-->
 
-                <aside class="testimonials aside section">
+                <aside class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><a href="http://predictivetechnologies.com">Applied Predictive Technologies (APT)</a>, Arlington, VA - <span class="place">Software Engineering Intern</span>&nbsp;<span class="year">(Summer 2015)</span></h3>
+                                <p>I worked on the <a href="#exception-tagging">exception tagging</a> and the client services dashboard features on the architecture team.</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><a href="https://azure.microsoft.com/en-us/">Microsoft Corporation</a>, Redmond, WA - <span class="place">Software Development Engineer Intern</span>&nbsp;<span class="year">(Summer 2014)</span></h3>
+                                <p>I created a disk performance monitor on the Azure Storage team.</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><a href="http://www.ni.com/">National Instruments</a>, Austin, TX - <span class="place">Software Engineering Intern</span>&nbsp;<span class="year">(2012 - 2013)</span></h3>
+                                <p>I made a signal path identifier to ascertain the hardware configuration of RF signal analyzers.</p>
+                            </div><!--//item-->
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+
+                <aside class="testimonials section">
                     <div class="section-inner">
                         <h2 class="heading">References</h2>
                         <div class="content">
@@ -206,7 +209,7 @@
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
-              
+
             </div><!--//secondary-->    
         </div><!--//row-->
     </div><!--//masonry-->
